@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript DOM Manipulation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #message {
+      color: teal;
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Page</h1>
+  </header>
+
+  <main>
+    <p id="message">This text will change dynamically.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+    
+    <section id="dynamic-area"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 by JavaScript Learner</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
